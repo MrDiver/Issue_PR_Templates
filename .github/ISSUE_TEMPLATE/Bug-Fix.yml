@@ -46,7 +46,7 @@ body:
       label: I did read the [Contribution Guide](https://docs.manim.community/en/stable/contributing.html)
       description: |
         Please read the Contribution Guide before submitting your pull request because it helps us to attend your PR more easily
-      - options:
-        - yes
+      options:
+      - yes
     validations:
       required: true
