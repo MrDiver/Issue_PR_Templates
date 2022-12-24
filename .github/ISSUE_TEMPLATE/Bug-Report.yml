@@ -23,7 +23,7 @@ body:
       description: Please describe how can the devs reproduce this Issue
       placeholder: I tried to do X with manim these are the steps to reproduce the Issue
       value: "Step 1. Step 2. Step 3."
-  - type: textarea:
+  - type: textarea
     attributes:
       label: Code to reproduce the Issue
       description: If you have any code to show please paste it here preferably only the code that is responsible for the issue and not the whole Animation
