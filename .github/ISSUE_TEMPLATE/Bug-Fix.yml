@@ -1,5 +1,5 @@
 name: Bug Fix
-description: 
+description: This is a pull request for a specific Issue
 title: "[Bugfix]: "
 labels: ["pr:bugfix"]
 body:
