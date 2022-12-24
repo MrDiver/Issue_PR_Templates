@@ -7,7 +7,9 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report! Please be clear with the description so the devs can help you as fast as possible!
-        Please refer to the 
+        
+        If we do not respond immediatly wait for a little while, the devs will come back to you as fast as they can!
+        
   - type: textarea
     id: what-happened
     attributes:
