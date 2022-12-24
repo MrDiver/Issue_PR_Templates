@@ -1,0 +1,72 @@
+name: Bug Report
+description: Report a bug or unexpected behavior when Running Manim. For new Features please visit the Discussions tab
+title: "[Bug]: "
+labels: ["issue:bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please be clear with the description so the devs can help you as fast as possible!
+        Please refer to the 
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Description of the Bug
+      description: A clear and concise description of the problem you encountered while using Manim
+      placeholder: While using manim i encountered the following issue...
+      value: "Something went wrong"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce the Bug
+      description: Please describe how can the devs reproduce this Issue
+      placeholder: I tried to do X with manim these are the steps to reproduce the Issue
+      value: "Step 1. Step 2. Step 3."
+  - type: textarea:
+    attributes:
+      label: Code to reproduce the Issue
+      description: If you have any code to show please paste it here preferably only the code that is responsible for the issue and not the whole Animation
+      render: "Python"
+  - type: textarea
+    attributes:
+      label: Images or other Files
+      description: |
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+
+      
+  - type: dropdown
+    attributes:
+      label: Manim Version
+      options:
+        - v0.17.x
+        - v0.16.x
+        - main-dev
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Python Version
+      options:
+        - 3.8
+        - 3.9
+        - 3.10
+        - 3.11
+      multiple: true
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Operating System
+      options:
+        - Windows
+        - MacOS
+        - Linux
+      multiple: true
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      description: Additional Information of the System (Latex distribution, FFMPEG version, ...)
+       
+      
