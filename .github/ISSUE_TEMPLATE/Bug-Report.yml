@@ -5,7 +5,6 @@ labels: ["issue:bug"]
 body:
   - type: markdown
     attributes:
-      label: Thanks for contributing to Manim
       value: |
         Thanks for taking the time to fill out this bug report! Please be clear with the description so the devs can help you as fast as possible!
         Please refer to the 
@@ -68,6 +67,7 @@ body:
       required: true
   - type: textarea
     attributes:
+      label: Additional Information
       description: Additional Information of the System (Latex distribution, FFMPEG version, ...)
        
       
