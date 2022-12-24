@@ -47,6 +47,6 @@ body:
       description: |
         Please read the Contribution Guide before submitting your pull request because it helps us to attend your PR more easily
       options:
-        - label: yes
+        - label: "Yes"
     validations:
       required: true
