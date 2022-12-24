@@ -1,0 +1,52 @@
+name: Bug Fix
+description: 
+title: "[Bugfix]: "
+labels: ["issue:bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to Manim! Please describe which issue you addressed in this PR
+        
+        Please do not forget to refer to the [Contribution Guide](https://docs.manim.community/en/stable/contributing.html) read it carefully.
+        
+        If we do not respond immediatly wait for a little while, the devs will come back to you as fast as they can!
+        
+  - type: textarea
+    id: fix
+    attributes:
+      label: Which issue did you fix
+      description: |
+        Describe which Issue you fixed and how you fixed it
+      value: |
+        I fixed Issue #<> in this PR
+        I fixed it by: ...
+    validations:
+      required: true
+      
+  - type: input
+    attributes:
+      label: Closing Issue
+      description: Please add a `closes #<ISSUE_NUMBER>` so the issue you fixed is linked
+      placeholder: closes #<>
+  - type: textarea
+    attributes:
+      label: Code to to test the fix
+      description: If you didn't write Tests for your PR please provide some code to test your fix with
+      render: "Python"
+      
+  - type: textarea
+    attributes:
+      label: Images or other Files
+      description: |
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+  
+  - type: checkboxes
+    attributes:
+      label: I did read the [Contribution Guide](https://docs.manim.community/en/stable/contributing.html)
+      description: |
+        Please read the Contribution Guide before submitting your pull request because it helps us to attend your PR more easily
+      - options:
+        - yes
+    validations:
+      required: true
